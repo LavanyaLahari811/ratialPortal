@@ -1,0 +1,8 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f8f8; 
+  position: relative;
+}
+

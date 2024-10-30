@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Avenir:wght@400;500;600;700&display=swap");
+
+.personal-details-container {
+  max-width: 1346px;
+  height: auto;
+  margin: 0 auto;
+  padding: 40px;
+  font-family: "Inter", sans-serif;
+}
+
+.personal-details-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.personal-details-form h2 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 33px;
+}
+
+.form-row {
+  display: flex;
+  gap: 30px;
+}
+
+.form-group {
+  flex: 1;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="file"],
+.form-group button.upload-button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.form-group input[type="file"] {
+  display: none;
+}
+
+.form-group .upload-button {
+  width: auto;
+  padding: 10px 20px;
+  text-align: left;
+  color: #0060ff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button.submit-button {
+  width: 1025px;
+  height: 55px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0060ff;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 600;
+  align-self: center;
+  margin-top: 60px;
+}
